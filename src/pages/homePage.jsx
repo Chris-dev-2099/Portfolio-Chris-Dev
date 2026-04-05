@@ -33,26 +33,35 @@ export default function HomePage() {
         
         <div class="row-span-4 grid grid-cols-1 md:grid-cols-5 gap-2">
 
-          <div class="md:col-span-3 grid grid-cols-12 gap-2">
-            
-            <div class="bg-red-100 col-span-5">
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-2 md:col-span-3 h-full">
 
+            <div class="flex flex-col gap-2 md:col-span-5 md:grid md:grid-rows-7 h-full">
               
+              <div class="bg-red-300 rounded-2xl md:row-span-2 h-full">
+                Redes sociales
+              </div>
+
+              <div class="bg-red-300 rounded-2xl md:row-span-5 h-full">
+                Image
+              </div>
 
             </div>
 
-            <div class="bg-green-100 col-span-7 rounded-2xl">
-
+            <div class="bg-green-100 rounded-2xl md:col-span-7 h-full">
+              Experiencia
             </div>
 
-            <div class="bg-yellow-100 col-span-8 rounded-2xl">
+            <div class="flex flex-col gap-2 md:col-span-12 md:grid md:grid-cols-12 h-full">
+              
+              <div class="bg-yellow-100 rounded-2xl md:col-span-8 h-full">
+                Developer stack
+              </div>
+
+              <div class="bg-orange-300 rounded-2xl md:col-span-4 h-full">
+                Image
+              </div>
 
             </div>
-
-            <div class="bg-orange-300 col-span-4 rounded-2xl">
-
-            </div>
-
 
           </div>
           
